@@ -32,8 +32,8 @@
 class Tanmay:
     def __init__(self):
         self.name        = "Tanmay Agarwal"
-        self.alias       = "WarMachine108"
-        self.languages   = ["C++", "Python", "Java", "JavaScript"]
+        self.alias       = ["WarMachine108", "Tan"]
+        self.languages   = ["C++", "Python", "Java", "C"]
         self.focus       = ["Backend Systems", "CV/ML", "Full-Stack"]
         self.interests   = ["Competitive Programming", "Open Source", "Low-level Systems"]
         self.currently   = "Building impactful projects & sharpening problem-solving skills"
