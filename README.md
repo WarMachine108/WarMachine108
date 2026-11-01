@@ -48,7 +48,7 @@ class Tanmay:
 ## 🚀 Featured Projects
 
 <details open>
-<summary><b>🗂️ KITSUMA — Git-Inspired Version Control System</b> &nbsp;<code>Python · C++ · PostgreSQL · Render</code> &nbsp;</summary>
+<summary><b>🗂️ KITSUMA — Git-Inspired Version Control System</b> &nbsp;<code>Python · C++ · PostgreSQL</code> &nbsp;</summary>
 
 <br/>
 
@@ -66,15 +66,18 @@ class Tanmay:
 ---
 
 <details open>
-<summary><b>🎵 Music Player</b> &nbsp;<code>C++ · YT-DLP · BASS Library</code></summary>
+<summary><b>🎵 Resonance — Terminal Music Player</b> &nbsp;<code>C++17 · FTXUI · BASS · yt-dlp</code></summary>
 
 <br/>
 
-> A terminal-based music player with YouTube integration and low-level audio control.
+> A Windows terminal music player with a styled interface, offline playback, and background YouTube downloads.
 
-- **Data Structures**: Doubly linked list for O(1) track navigation; hash-map song table for O(1) metadata lookup
-- **Audio**: BASS library for low-level audio stream management
-- **Features**: Multi-sort modes, non-blocking keyboard input via `_kbhit()`, and a built-in YouTube downloader module via YT-DLP
+- **Data Structures**: Custom AVL trees for title and duration sorting, a doubly linked playlist for playback order, and a hash-map song table for expected O(1) metadata lookup
+- **Interface**: FTXUI-powered RGB layout with keyboard and mouse controls, song filtering, playback progress, and confirmation dialogs
+- **Audio**: BASS stream management with pause/resume, seeking, volume control, automatic track advancement, and an audio-driven FFT spectrum
+- **Downloads**: Background YouTube search and MP3 downloads using yt-dlp and FFmpeg, with progress reporting and cancellation
+- **Reliability**: Validated metadata, duplicate detection, atomic saves, backups, and error handling
+- **Build**: CMake and Ninja for reproducible Windows x64 builds
 
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/WarMachine108/Music-player)
 
