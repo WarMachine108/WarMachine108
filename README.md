@@ -48,7 +48,7 @@ class Tanmay:
 ## 🚀 Featured Projects
 
 <details open>
-<summary><b>🗂️ KITSUMA — Git-Inspired Version Control System</b> &nbsp;<code>Python · C++ · PostgreSQL · Render</code> &nbsp;G</summary>
+<summary><b>🗂️ KITSUMA — Git-Inspired Version Control System</b> &nbsp;<code>Python · C++ · PostgreSQL · Render</code> &nbsp;</summary>
 
 <br/>
 
