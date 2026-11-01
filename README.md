@@ -48,15 +48,16 @@ class Tanmay:
 ## 🚀 Featured Projects
 
 <details open>
-<summary><b>🗂️ KITSUMA — Git-Inspired Version Control System</b> &nbsp;<code>Python · C++ · PostgreSQL · Render</code> &nbsp; 🟢 ONGOING</summary>
+<summary><b>🗂️ KITSUMA — Git-Inspired Version Control System</b> &nbsp;<code>Python · C++ · PostgreSQL · Render</code> &nbsp;G</summary>
 
 <br/>
 
 > A full-stack VCS (like Git) with a PostgreSQL backend and a Python bridge layer.
 
-- **Database**: Tables for users, files, pushes, and folder hierarchies linked via foreign keys; `bcrypt` BEFORE INSERT trigger for secure authentication
-- **Architecture**: Python bridge between C++ CLI and the database; ranked-hierarchy merge model with designated folder heads to minimize conflict overhead
-- **Deployment**: Hosted on Render
+- **Database**: Relational tables for users, projects, files, submissions, reviews, and revision history; bcrypt password hashing through PostgreSQL `pgcrypto` and token-based sessions.
+- **Architecture**: C++ three-way merge engine using Myers diff, with Python handling CLI commands, database operations, and ranked review routing through designated folder heads.
+- **Functionality**: Project creation, folder-based access, cloning, file submissions, conflict resolution, revision history, and safe synchronization.
+- **Configuration & Testing**: Configurable PostgreSQL connection supporting local or Supabase databases; verified with 16 automated tests, 10,000 randomized diff/merge cases, and an end-to-end demo.
 
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/WarMachine108/KITSUMA)
 
