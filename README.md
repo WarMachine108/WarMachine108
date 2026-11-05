@@ -86,15 +86,17 @@ class Tanmay:
 ---
 
 <details open>
-<summary><b>📈 Stock Market Simulator</b> &nbsp;<code>Java · JavaFX · YahooFin API · OOP</code></summary>
+<summary><b>📈 Stock Market Simulator</b> &nbsp;<code>Java 21 · JavaFX · Yahoo Finance · Maven · JUnit</code></summary>
 
 <br/>
 
-> A realistic market simulation platform for practicing trading strategies.
+> A desktop paper trading application for practicing stock investing with virtual money.
 
-- **API Integration**: Yahoo Finance API for real-time and historical stock data
-- **OOP Design**: `Stock`, `Portfolio`, `Trader`, `Market` classes — inheritance and polymorphism model distinct trader strategies
-- **Engine**: Randomised price engine recalculates net worth each tick
+- **API Integration**: Yahoo Finance stock search, latest quotes, and historical price data
+- **Portfolio Management**: Validated buying and selling, weighted-average purchase prices, cash balance, and unrealized profit/loss
+- **OOP Design**: Encapsulated `Stock` and `User` models, with a `MarketData` interface supporting live and offline demo providers
+- **Interactive UI**: Dark-themed JavaFX interface, trade previews, background quote updates, and timezone-aware 1D/1M charts
+- **Persistence & Testing**: Recoverable local JSON saves, 40 automated regression tests, and GitHub Actions CI
 
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/WarMachine108/Stock-market-simulator)
 
