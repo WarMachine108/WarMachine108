@@ -126,10 +126,13 @@ class Tanmay:
 
 <br/>
 
-> A browser-based two-player Pong game with a real-time powerup system.
+> A retro local two-player Pong game built for a college hackathon, with seven power-ups and three game modes.
 
-- **Powerups**: Freeze, Fireball, Shrink, and more — rendered using p5.js
-- **Structure**: Multi-page flow (main menu → mode select → game modes) with per-powerup SFX assets and responsive canvas scaling
+- **Game Modes**: Standard (first to 11), Blitz (first to 5 at 1.5× ball speed), and Endless
+- **Power-ups**: Freeze, Fireball, XL, Mini, Magic, Force Field, and Broken Keyboard, with individual effect timers and recharge indicators
+- **Gameplay**: Frame-rate-independent movement, collision substeps for fast shots, pause/resume, restart, and rematches
+- **Interface & Audio**: Retro menus, responsive court and HUD, saved master volume/mute, and sound effects using the original hackathon assets
+- **Structure**: Shared JavaScript game rules and p5.js rendering, organized code/media folders, and bundled runtime assets for offline play without a build step
 
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/WarMachine108/rumble-pong)
 
