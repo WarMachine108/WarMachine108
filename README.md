@@ -48,6 +48,26 @@ class Tanmay:
 ## 🚀 Featured Projects
 
 <details open>
+<summary><b>🌐 NetFlex — Custom Application-Layer Protocol</b> &nbsp;<code>C++17 · Winsock · Win32 API</code></summary>
+
+<br/>
+
+> A Windows networking application with integrated client/server terminals and a live inspector for a custom protocol built over TCP.
+
+- **Protocol**: Eight-byte header with a marker, version, message type, and big-endian payload length; Text echo, Ping/Pong, Goodbye, and Error messages.
+- **Networking**: Real TCP socket communication, partial-send/receive loops, header validation, and a 65,536-byte payload limit checked before allocation.
+- **Concurrency**: Separate client/server worker threads, mutex-protected command and update queues, condition-variable coordination, and socket cleanup through RAII.
+- **Interface**: Native Win32 terminal panes with command history, reconnect controls, selectable message history, and a slowed animation of actual header bytes.
+- **Delivery**: A single Windows executable, a PowerShell build script, and documented protocol, architecture, and classroom demo guides.
+- **Skills Practiced**: Socket programming, TCP stream framing, binary serialization, byte order, defensive parsing, resource ownership, thread synchronization, and native Windows UI development.
+
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/WarMachine108/Netflex-Application-level-protocol)
+
+</details>
+
+---
+
+<details open>
 <summary><b>🗂️ KITSUMA — Git-Inspired Version Control System</b> &nbsp;<code>Python · C++ · PostgreSQL</code> &nbsp;</summary>
 
 <br/>
@@ -179,6 +199,15 @@ class Tanmay:
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![p5.js](https://img.shields.io/badge/p5.js-ED225D?style=for-the-badge&logo=p5.js&logoColor=white)
+
+![Winsock](https://img.shields.io/badge/Winsock-0078D4?style=for-the-badge)
+![Win32 API](https://img.shields.io/badge/Win32_API-0078D4?style=for-the-badge)
+
+### 🌐 Networking & Systems
+![TCP/IP](https://img.shields.io/badge/TCP%2FIP-00599C?style=for-the-badge)
+![Socket Programming](https://img.shields.io/badge/Socket_Programming-0078D4?style=for-the-badge)
+![Multithreading](https://img.shields.io/badge/Multithreading-6A1B9A?style=for-the-badge)
+![RAII](https://img.shields.io/badge/RAII-355C7D?style=for-the-badge)
 
 ### ☁️ Cloud & DevOps
 ![Render](https://img.shields.io/badge/Render-%2346E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
